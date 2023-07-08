@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Oh Lookatme</title>
+	<link href="./gaming.css" rel="stylesheet" type="text/css">
+  </head>
+  <body style="background-color:#000;">
+
+    <!div style="text-align: center;">
+	<div id="mainbox" style="width: 900px; height: 675px; margin: auto; background: #d2d2d2; color: #fff; box-shadow: 4px 7px rgba(155,155,155,.7); padding-top: 0px;">
+		<div id="bigimage"></div>
+		<div id="pages">
+			<ul>
+				<li><a href="./main.html">Home</a></li>
+				<li><a href="./Projects.html">Projects</a></li>
+				<li><a href="./Fumo.html">Fumo</a></li>
+				<li><a href="./Where.html">Where am I</a></li>
+				<li><a href="./Cool.html">Cool Zone</a></li>
+				<li><a href="./uhoh.html">uh oh help im out of html space</a></li>
+		</div>
+		<div id="content">
+			<h1 style="text-align: center; margin-left: auto; margin-right: auto; ">Where am I?</h1>
+			<p style="font-size: 17px;">Go over to your wall, put your ear up to it. Hear that? Thats me.</p>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<p>I can also be found at these places</p>
+			<br>
+			<br>
+			<a style="color:#1d9bf0;" href="https://www.twitter.com/Karusader" target=”_blank”>Twitter (unfortunately)</a>
+			<br>
+			<br>
+			<a style="color:#ff0000;" href="https://www.youtube.com/@Karusader/" target=”_blank”>Youtube</a>
+			<br>
+			<br>
+			<a id="discord"  href="#" style="color:#5662f6;" onClick="copyDiscord()">Discord (Karusader#6048)</a>
+		</div>
+	</div>
+
+  </body>
+  <script>
+	function copyDiscord() {
+		navigator.clipboard.writeText("Karusader#6048");
+		document.getElementById("discord").innerHTML = "Discord (Karusader#6048) Copied to clipboard!"
+		setTimeout(function(){
+			document.getElementById("discord").innerHTML = "Discord (Karusader#6048)"
+		}, 1500);
+	} 
+  </script>
+   <script src="main.js"></script> 
+</html>

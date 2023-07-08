@@ -1,0 +1,74 @@
+body {
+  background-image: url("images/fire.gif");
+  background-repeat: repeat;
+}
+
+#pages {
+	width:100%;
+	float:left;
+	background:rgba(136, 8, 8, 1);
+	height:38px;
+	overflow: hidden;
+	white-space: nowrap;
+	box-shadow: 0px 4px rgba(155,155,155,.7);
+	}		
+	
+#pages ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	white-space: nowrap;
+	}
+	
+#pages ul li {	
+	display: inline-block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+	padding:5px 36px 3px 36px;
+	border-right:1px #00222a solid;
+	margin:7px 0px 0px 0px;
+
+	}	
+
+#pages ul li a {	
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none;
+	white-space: nowrap;
+	}
+	
+#pages ul li a:hover {	
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+	text-decoration:underline;
+	white-space: nowrap;
+	}	
+	
+#content p {
+	display: inline-block;
+	color:black;
+	padding:0px 50px 10px 35px;
+	font-size: 17px;
+	margin: auto;
+}
+
+#content h1 {
+	float:left;
+	color:black;
+	padding:0px 50px 20px 35px;
+	font-size: 60px;
+}
+
+#content a {	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	padding:0px 50px 10px 35px;
+	text-decoration:none;
+	}
